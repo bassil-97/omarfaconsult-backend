@@ -10,7 +10,7 @@ const usersRoutes = require("./routes/user-routes");
 app.use(bodyParser.json());
 
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Origin", "https://app.faconsulting.me");
   res.setHeader(
     "Access-Control-Allow-headers",
     "Origin, X-Requested-With, Content-Type, Accept, Authorization"
